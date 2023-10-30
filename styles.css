@@ -1,4 +1,12 @@
 /*  your css code here. If applicable */
-#openModal:onclick{
+#openModal.onclick{
 	
+}
+.modal{
+	display:none;
+	position: fixed; 
+	z-index: 1;
+    left: 0;
+    top: 100px;
+    width: 100%;
 }
